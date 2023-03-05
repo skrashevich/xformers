@@ -118,8 +118,3 @@ jobs:
           body: 'TODO: Add nightly release notes'
           files: |
             dist/*.whl
-            
-     
-        env:
-          TWINE_PASSWORD: ${{ secrets.PYPI_TOKEN }}
-# Note: it might be helpful to have additional steps that test if the built wheels actually work
